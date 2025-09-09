@@ -1,0 +1,39 @@
+/* Main content section */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Profile image inside main only */
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Aside section styles */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Paragraphs */
+p {
+    padding: 0;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
