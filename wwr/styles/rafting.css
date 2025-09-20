@@ -4,7 +4,7 @@
     --secondary-color: #08b4d2df; /* warm sand/tan */
     --accent1-color: #3a3a3a; /* dark gray */
     --accent2-color: #ffffff; /* white */
-    --heading-font: "Brush Script MT", cursive, serif;
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -120,16 +120,14 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    position: relative;
-    font-size: 4rem;
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
-    margin-bottom: 20px;
-    padding: 0;
-    background: none;
-    opacity: 1;
-    width: auto;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
 }
 .hero p {
     font-size: 1.2rem;
@@ -156,7 +154,28 @@ nav ul li a:hover {
 }
 
 .hero article {
-    display: none; /* Hide the article overlay for this design */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #333
+    padding: 20px;
+    z-index: 10;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Content Sections */
