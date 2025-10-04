@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Wild Rapids Rafting Company for reservations, inquiries, and questions. Reach out to our experienced team for an unforgettable white water rafting adventure!">
+    <meta name="Mbong, Gordon" content="My Rafting Site">
+    <title>Contact Us - Wild Rapids Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Wild Rapids Rafting Company Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="images/hero-background.jpg" alt="White water rafting adventure on rushing rapids">
+            <h1>Contact Us</h1>
+        </div>
+
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <div class="info-container">
+                <div class="company-details">
+                    <h3>Company Information</h3>
+                    <p><strong>Address:</strong><br>
+                        40 Accra Street<br>
+                        Wuse-Zone 5, Abuja NIG</p>
+
+                    <p><strong>Phone:</strong><br>
+                        Office: (234) 810-233-9261<br>
+                        Reservations: (234) 913-462-8843</p>
+
+                    <p><strong>Email:</strong><br>
+                        info@wildrapidsrafting.com</p>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9955488667515!2d7.463910472213756!3d9.064168835988076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b1ea94e08ed%3A0x1e0d40964f705fff!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1759614481526!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profiles-container">
+                <figure>
+                    <img src="images/ekanem.jpg" alt="Ekanem Thompson, Founder and Lead Guide">
+                    <figcaption>
+                        <strong>Ekanem Thompson</strong><br>
+                        Founder & Lead Guide
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jordan.jpg" alt="Jordan Augustine, Operations Manager">
+                    <figcaption>
+                        <strong>Jordan Augustine</strong><br>
+                        Operations Manager
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/benji.jpg" alt="Benjamin Rodriguez, Safety Coordinator">
+                    <figcaption>
+                        <strong>Benjamin Rodriguez</strong><br>
+                        Safety Coordinator
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <fieldset>
+                        <legend>Purpose of Message:</legend>
+                        <label>
+                            <input type="radio" name="purpose" value="general" required>
+                            General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="website">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" name="newsletter" value="yes">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MBONG, GORDON M. | Wild Rapids Rafting Company</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank" title="Facebook">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                <img src="images/linkedin.svg" alt="linkedin">
+            </a>
+            <a href="https://instagram.com" target="_blank" title="Instagram">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

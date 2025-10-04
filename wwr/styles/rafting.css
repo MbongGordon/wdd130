@@ -219,6 +219,199 @@ nav ul li a:hover {
     text-align: justify;
 }
 
+/* Contact Info Section */
+.contact-info {
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-left: 2px solid var(--accent1-color);
+    border-right: 2px solid var(--accent1-color);
+    border-bottom: 2px solid var(--accent1-color);
+}
+
+.contact-info h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.company-details h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.company-details p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+/* Employee Profiles Section */
+.employee-profiles {
+    background-color: #fff;
+    padding: 40px;
+    border-left: 2px solid var(--accent1-color);
+    border-right: 2px solid var(--accent1-color);
+    border-bottom: 2px solid var(--accent1-color);
+}
+
+.employee-profiles h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.profiles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.employee-profiles figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.employee-profiles figure img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--primary-color);
+}
+
+.employee-profiles figcaption {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.employee-profiles figcaption strong {
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-left: 2px solid var(--accent1-color);
+    border-right: 2px solid var(--accent1-color);
+    border-bottom: 2px solid var(--accent1-color);
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--accent1-color);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 14px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group fieldset {
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.form-group legend {
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 0 10px;
+}
+
+.form-group fieldset label {
+    display: block;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 8px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.form-group button[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+
 .adventure-section figure {
     margin: 0;
     padding: 0;
@@ -308,6 +501,18 @@ footer p {
     .hero p {
         font-size: 1rem;
         margin: 0 20px 20px 20px;
+    }
+
+    .info-container {
+        grid-template-columns: 1fr;
+    }
+
+    .profiles-container {
+        grid-template-columns: 1fr;
+    }
+
+    .map-container iframe {
+        height: 250px;
     }
 
     nav, p, section, article {
